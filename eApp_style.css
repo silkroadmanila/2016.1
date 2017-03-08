@@ -1,0 +1,724 @@
+ .enormaltable,
+ .eborderedtable {
+     width: 100%;
+     color: #000;
+     font-family: inherit;
+     font-size: inherit;
+ }
+ 
+ TD,
+ td {
+     font-family: inherit;
+     font-size: inherit;
+ }
+ 
+ .enormalfont {
+     color: #000;
+     font-size: 12px;
+ }
+ 
+ .eborderedtable {
+     border-collapse: initial;
+     border: 1px solid #aaaaaa;
+     width: 100%;
+ }
+ 
+ .eborderedtable td {
+     padding: 5px;
+     border-top: 1px dashed #ddd;
+     vertical-align: middle;
+     font-size: inherit;
+     font-family: inherit;
+ }
+ 
+ .eheader {
+     color: #000;
+     background-color: #FFF;
+     font-weight: bold;
+     font-size: 16px;
+ }
+ 
+ .eheader2 {
+     color: #000;
+     background-color: #FFF;
+     font-size: 13px;
+     font-weight: bold;
+     text-align: left;
+ }
+ 
+ .eheader3 {
+     color: #000;
+     /*background-color: #FFF;*/
+     background-color: #F3F3F3;
+     font-size: 12px;
+     font-weight: bold;
+     text-align: left;
+ }
+ 
+ .esmalltext {
+     font-size: 10px;
+     font-weight: normal;
+ }
+ 
+ .eboldtext {
+     font-size: 12px;
+     font-weight: bold;
+ }
+ 
+ .stages>.stage-description {
+     border-top: 0;
+ }
+ 
+ textarea {
+     font-size: 12px;
+ }
+ 
+ .eitalictext {
+     font-size: 12px;
+     font-style: italic;
+ }
+ 
+ .stage0 {
+     display: none;
+ }
+ 
+ .stage1 {
+     display: none;
+ }
+ 
+ .stage2 {
+     display: none;
+ }
+ 
+ .stage3 {
+     display: none;
+ }
+ 
+ .stage4 {
+     display: none;
+ }
+ 
+ .stage5 {
+     display: none;
+ }
+ 
+ .stage6 {
+     display: none;
+ }
+ 
+ .stage7 {
+     display: none;
+ }
+ 
+ .stage8 {
+     display: none;
+ }
+ 
+ .stage9 {
+     display: none;
+ }
+ 
+ .stage10 {
+     display: none;
+ }
+ 
+ .stage11 {
+     display: none;
+ }
+ 
+ .stage12 {
+     display: none;
+ }
+ 
+ .stage13 {
+     display: none;
+ }
+ 
+ .stages {
+     display: none;
+ }
+ /*2.3 CCE*/
+ 
+ #ps-body {
+     /*background-size: contain;*/
+ }
+ /* 0112016 */
+ /*02/08/2016*/
+ /*hide and show*/
+ 
+ .row h1 {
+     font-size: 2em;
+     margin: .67em 0
+ }
+ 
+ .row h2 {
+     font-size: 1.5em;
+     margin: .75em 0
+ }
+ 
+ .row h3 {
+     font-size: 1.17em;
+     margin: .83em 0
+ }
+ 
+ .row h5 {
+     font-size: .83em;
+     margin: 1.5em 0
+ }
+ 
+ .row h6 {
+     font-size: .75em;
+     margin: 1.67em 0
+ }
+ 
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-weight: bolder
+ }
+ 
+ .row p {
+     margin: 0 0 15px;
+ }
+ 
+ .red {
+     color: #F00;
+ }
+ 
+ .section {
+     display: none;
+     position: relative;
+ }
+ 
+ .remove_row {
+     position: absolute;
+     margin-top: -1px;
+     background: rgb(169, 66, 66);
+     border: 0;
+     color: #FFF;
+     /* font-weight: bold; */
+     cursor: pointer;
+     padding: 5px 10px;
+     right: 6px;
+     top: -13px;
+     border-radius: 100%;
+ }
+ 
+ .btn_add {
+     margin-bottom: 10px;
+ }
+ /*end hide show*/
+ 
+ #stage0 .eborderedtable td {
+     padding: 0;
+ }
+ 
+ .cssFormButton {
+     margin: 2px !important;
+     padding: 10px 20px;
+     font-size: inherit;
+     border: 1px solid #31708f;
+     border-radius: 0;
+     width: auto !important;
+     background: #FFF;
+     float: left;
+ }
+ 
+ select.cssApplyFormSelect,
+ select {
+     width: 100%;
+ }
+ 
+ .eborderedtable tr:nth-child(1) td {
+     border-top: 0;
+ }
+ 
+ .ui-form-heading h4 {
+     text-shadow: 1px 1px 1px #FFF;
+     color: #000;
+ }
+ 
+ table.active {
+     margin-bottom: 10px;
+ }
+ 
+ #stage4 table:last-of-type,
+ #stage3 table.active:last-of-type {
+     margin-bottom: 0;
+ }
+ 
+ #stage0 .eborderedtable td.eremark {
+     padding: 6px;
+ }
+ 
+ .eborderedtable .ui-form-item {
+     padding: 0.25em 0;
+ }
+ 
+ .eborderedtable td.no-border-top {
+     border-top: 0;
+ }
+ 
+ .btn_add {
+     margin-top: 0 !important;
+     padding: 5px 50px;
+     /* border: 1px solid #A5A5A5; */
+     width: auto;
+ }
+ 
+ #stage0 [data-label="Custom Fields"] {
+     border: 0;
+     background: none;
+     border-radius: 0;
+     /* border-top: 1px solid #AAA; */
+     margin: 10px 15px;
+     padding: 0;
+     font-size: 18px;
+     /* border-top: 2px dashed #CCC; */
+     /* margin-top: 20px; */
+ }
+ 
+ .active {
+     display: block;
+ }
+ 
+ i {
+     font-style: italic;
+     margin: 4px 0;
+ }
+ 
+ .ui-form-field-extra-characterCount,
+ #EDUC-REM-1,
+ #EMP-REM-1,
+ #REF-REM-1,
+ #ADDR-REM-1 {
+     display: none;
+ }
+ 
+ .ui-form-heading h4 {
+     text-shadow: 1px 1px 1px #FFF;
+     color: #000;
+ }
+ 
+ .stages {
+     /* margin: 5px; */
+     float: left;
+     width: 100%;
+     margin-bottom: 0;
+ }
+ 
+ .stage-container {
+     margin-bottom: 20px;
+     float: left;
+     width: 100%;
+ }
+ 
+ .stage-title {
+     border-top: 0;
+     /* text-shadow: 1px 1px 1px #FFF; */
+     color: #FFF;
+     padding: 10px 15px;
+     font-size: 20px;
+     position: relative;
+     float: left;
+     width: 100%;
+ }
+ 
+ .stage-content {
+     /* padding: 10px; */
+     float: left;
+     width: 100%;
+ }
+ 
+ .stage-description {
+     padding: 15px;
+     position: relative;
+ }
+ 
+ .stage-rows .stage-description {
+     border-top: 2px dashed #CCC;
+ }
+ 
+ .web {
+     display: block;
+ }
+ 
+ .mobile {
+     display: none;
+ }
+ 
+ .row {
+     float: left;
+     width: 100%;
+ }
+ 
+ .row {
+     margin-right: 0 !important;
+     margin-left: 0 !important;
+     /*padding: 10px 0;*/
+     border-top: 1px dashed #ddd;
+ }
+ 
+ .row:first-child {
+     border-top: 0;
+ }
+ 
+ .btn-container {
+     background: rgba(221, 221, 221, 0.24);
+     float: left;
+     width: 100%;
+     border-top: 1px solid #CCC;
+     left: 0;
+     padding: 10px;
+ }
+ 
+ input[value=Continue],
+ input[type=submit] {
+     background: #31708f;
+     color: #FFF;
+     /* border: 1px solid #fff; */
+ }
+ 
+ .btn-area {
+     float: right;
+ }
+ 
+ .row select {
+     padding: 2px 0px 3px 3px;
+     margin: 5px 1px 3px 0px;
+ }
+ 
+ .row>div {
+     margin: 10px 0;
+ }
+ 
+ .row:first-child>div {
+     /*margin-top: 0;*/
+ }
+ 
+ .row .no-padding {
+     padding: 0 !important;
+     margin: 0 !important;
+ }
+ 
+ .stage-description .stage-label {
+     font-size: 18px;
+     font-weight: bold;
+ }
+ 
+ .ui-form-heading {
+     margin-top: 0;
+     border: 0;
+ }
+ 
+ input[type=text],
+ textarea {
+     margin: 5px 1px 3px 0px !important;
+ }
+ 
+ input[type=radio][value=Yes],
+ input[type=checkbox][value=Yes] {
+     margin-left: 0 !important;
+ }
+ 
+ input[type=checkbox],
+ input[type=radio] {
+     margin-right: 4px !important;
+     margin-left: 6px !important;
+ }
+ 
+ .stage-subtitle {
+     font-size: 14px;
+ }
+ 
+ .no-border {
+     border: 0 !important;
+ }
+ 
+ .no-margin {
+     margin-top: 0 !important;
+ }
+ 
+ .stages {
+     border: 1px solid #1c3f7b;
+ }
+ 
+ .stage-title {
+     background: #1c3f7b;
+ }
+ 
+ input[type=text],
+ textarea,
+ select {
+     border-radius: 0 !important;
+     border: 1px solid #ccc;
+ }
+ 
+ .modal-content {
+     border-radius: 0 !important;
+ }
+ 
+ button.btn.btn-primary {
+     /* background: none !important; */
+     border: 1px solid #CCC;
+     border-radius: 0 !important;
+     background: #555;
+ }
+ 
+ .ui-widget-overlay {
+     background: rgba(0, 0, 0, 0.7);
+ }
+ 
+ .ui-dialog {
+     padding: 0 !important;
+     border-radius: 0 !important;
+ }
+ 
+ .ui-dialog .ui-dialog-titlebar {
+     padding: .4em 1em;
+     position: relative;
+     border: 0 !important;
+     border-radius: 0 !important;
+     background: #444444;
+     color: #FFF;
+ }
+ 
+ #error-message {
+     padding: 20px;
+     padding-bottom: 10px;
+ }
+ 
+ .stage-description {
+     float: left;
+     width: 100%;
+ }
+ 
+ .floatingHeader {
+     position: fixed;
+     top: 0;
+     visibility: hidden;
+     z-index: 999;
+ }
+ 
+ div#body_container {
+     padding-left: 0 !important;
+ }
+ 
+ #box_footer {
+     height: auto !important;
+ }
+ 
+ .stage-buttons {
+     position: absolute;
+     right: 3px;
+     top: 0;
+ }
+ 
+ .stage-buttons input {
+     border: 1px solid;
+     font-size: 60%;
+     color: #FFF;
+     background: #444444;
+     width: auto;
+     padding: 9px 24px;
+ }
+ 
+ #stage0 .col-md-12 {
+     padding-left: 0;
+     padding-right: 0;
+ }
+ 
+ #stage0 .ui-form-item-horizontal {
+     padding: 0;
+     padding-bottom: 0;
+     box-sizing: border-box;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ 
+ #stage0 .ui-form-label,
+ #stage0 .ui-form-field {
+     padding: 0;
+     width: 100%;
+ }
+ 
+ #stage0 .ui-form-label {
+     margin-top: 10px;
+ }
+ 
+ #stage0 .ui-form-field {
+     margin-bottom: 10px;
+ }
+ 
+ .ui-form-field input,
+ .ui-form-field textarea,
+ .ui-form-field select {
+     width: 100%;
+     box-sizing: border-box;
+ }
+ 
+ #stage0 .ui-form-item-horizontal .ui-form-label {
+     margin-right: 0;
+ }
+ 
+ .stage-description {
+     float: left;
+     width: 100%;
+     border-top: 2px dashed #CCC;
+ }
+ 
+ .row ul>li {
+     margin: 10px 0;
+ }
+ 
+ table.bordered tr td {
+     border: 1px solid #000;
+     padding: 10px;
+ }
+ 
+ .indent-20 {
+     text-indent: 20px;
+ }
+ 
+ .sf-logo {
+     position: absolute;
+     top: 0;
+     right: 20px;
+ }
+ 
+ input[type=text] {
+     width: 100%;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+ }
+ 
+ textarea {
+     width: 100%;
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+ }
+ 
+ input[type=text],
+ textarea {
+     -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     padding: 3px 0px 3px 3px;
+     margin: 5px 1px 3px 0px;
+ }
+ 
+ input[type=text]:focus,
+ textarea:focus {
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     padding: 3px 0px 3px 3px;
+     margin: 5px 1px 3px 0px;
+     border: 1px solid rgba(81, 203, 238, 1);
+ }
+ 
+ table.eborderedtable tr td p {
+     padding: 5px 0;
+ }
+ 
+ .align-center {
+     text-align: center;
+ }
+ 
+ .post-title {
+     margin: 10px auto;
+     font-size: 16px;
+ }
+ 
+ .ui-form-item-horizontal .ui-form-field {
+     width: 66%;
+ }
+ 
+ @media only screen and (max-width:875px) {
+     #pslogo {
+         width: 100%;
+         display: table;
+         margin: auto;
+         float: none;
+     }
+     .sf-logo {
+         position: relative !important;
+         right: auto !important;
+     }
+ }
+ 
+ @media screen and (max-width:768px) {
+     .table-responsive tr td,
+     .ui-form-item-horizontal .ui-form-label,
+     .ui-form-item-horizontal .ui-form-field {
+         display: block;
+         width: 100%;
+         box-sizing: border-box;
+     }
+     .stages {}
+     .row>div {
+         margin: 10px 0;
+     }
+     .scroll-mobile {
+         overflow-x: scroll;
+     }
+     .btn-area input {
+         width: 100% !important;
+         margin: 9px 0 !important;
+         box-sizing: border-box;
+         display: block;
+         float: none;
+         padding: 10px 0;
+     }
+     .web {
+         display: none;
+     }
+     .mobile {
+         display: block;
+     }
+     .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-draggable {
+         width: 96% !important;
+         left: 0 !important;
+         margin: 10px !important;
+     }
+     .btn-area {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width:535px) {
+     #box_footer {
+         height: auto !important;
+     }
+     #pslogo img {
+         margin: 20px auto;
+         text-align: center;
+         display: block;
+     }
+     .social {
+         display: table;
+         float: left;
+         margin-left: 10px !important;
+     }
+     .stage-buttons {
+         position: relative;
+         float: left;
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width:360px) {
+     #box_footer {
+         height: auto !important;
+     }
+     .copyright {
+         width: 100%;
+         text-align: left;
+         /* margin-left: 0 !important; */
+     }
+ }
